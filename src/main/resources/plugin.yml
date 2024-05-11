@@ -1,0 +1,4 @@
+name: ncwu_plugin
+version: '${project.version}'
+main: com.chank.Ncwu_plugin
+api-version: '1.20'
