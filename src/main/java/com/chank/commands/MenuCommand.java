@@ -29,14 +29,13 @@ public class MenuCommand implements CommandExecutor {
             itemMeta.setDisplayName("§4回城");
             ArrayList<String> lore = new ArrayList<>();
             lore.add("点击快速回城");
-            lore.add("附加文字");
             itemMeta.setLore(lore);
             diamond.setItemMeta(itemMeta);
             inventory.setItem(4, diamond);
             // 回死亡地点按钮
             ItemStack bone = new ItemStack(Material.BONE);
             ItemMeta boneItemMeta = bone.getItemMeta();
-            boneItemMeta.setDisplayName("§5回到死亡地点");
+            boneItemMeta.setDisplayName("§5回到上一个地点");
             ArrayList<String> bonelore = new ArrayList<>();
             bonelore.add("再战百世轮回！");
             boneItemMeta.setLore(bonelore);
@@ -64,7 +63,7 @@ public class MenuCommand implements CommandExecutor {
                 firstHomeMeta.setLore(firstHomeMetaLore);
                 home.setItemMeta(firstHomeMeta);
                 // 给他加入菜单
-                inventory.setItem(22 + i, home);
+                inventory.setItem(20 + i, home);
             }
             player.openInventory(inventory);
             return true;

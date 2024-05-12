@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03659077-6eb9-4bd5-84f8-b88cd4538257" name="更改" comment="回城，设置家，回到死亡地点完成...">
+    <list default="true" id="03659077-6eb9-4bd5-84f8-b88cd4538257" name="更改" comment="commit once">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/NcwuPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/NcwuPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/commands/MenuCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/commands/MenuCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/listeners/MenuLisner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/listeners/MenuLisner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1715435818463" duration="9136000" />
       <workItem from="1715445208330" duration="679000" />
       <workItem from="1715481115631" duration="19668000" />
-      <workItem from="1715501046456" duration="5491000" />
+      <workItem from="1715501046456" duration="6452000" />
     </task>
     <task id="LOCAL-00001" summary="初始化提交...">
       <option name="closed" value="true" />
@@ -164,7 +163,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715500802360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit once">
+      <option name="closed" value="true" />
+      <created>1715506604137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715506604137</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit once">
+      <option name="closed" value="true" />
+      <created>1715506670661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715506670661</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit once">
+      <option name="closed" value="true" />
+      <created>1715506727377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715506727377</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +204,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -199,6 +222,7 @@
     <MESSAGE value="readme..." />
     <MESSAGE value="累昏了，学习去了。" />
     <MESSAGE value="回城，设置家，回到死亡地点完成..." />
-    <option name="LAST_COMMIT_MESSAGE" value="回城，设置家，回到死亡地点完成..." />
+    <MESSAGE value="commit once" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit once" />
   </component>
 </project>

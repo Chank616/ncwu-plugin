@@ -77,7 +77,7 @@ public class MenuLisner implements Listener {
                 // 回死亡地点按钮
                 ItemStack bone = new ItemStack(Material.BONE);
                 ItemMeta boneItemMeta = bone.getItemMeta();
-                boneItemMeta.setDisplayName("§5回到死亡地点");
+                boneItemMeta.setDisplayName("§5回到上一个地点");
                 ArrayList<String> bonelore = new ArrayList<>();
                 bonelore.add("再战百世轮回！");
                 boneItemMeta.setLore(bonelore);
@@ -132,9 +132,9 @@ public class MenuLisner implements Listener {
                 Location deathLocation = this.getDeathLocation(playerId);
                 if (deathLocation != null) {
                     player.teleport(deathLocation);
-                    player.sendMessage("您已被传送到上一次的死亡地点。");
+                    player.sendMessage("您已被传送到上一个地点。");
                 } else {
-                    player.sendMessage("您还没有记录死亡地点！");
+                    player.sendMessage("您还没有上一次记录的地点！");
                 }
                 event.setCancelled(true);
             }
