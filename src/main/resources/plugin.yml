@@ -5,7 +5,7 @@ api-version: '1.20'
 
 commands:
   menu:
-    description: "菜单相关"
+    description: "自定义菜单相关"
     aliases: mu
   myplugin:
     description: "华水测试插件"

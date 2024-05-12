@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03659077-6eb9-4bd5-84f8-b88cd4538257" name="更改" comment="readme...">
+    <list default="true" id="03659077-6eb9-4bd5-84f8-b88cd4538257" name="更改" comment="累昏了，学习去了。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/MyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/MyListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/Ncwu_plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/NcwuPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/NcwuPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/NcwuPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/commands/MenuCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/commands/MenuCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/inventory/MenuInventory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chank/listeners/MenuLisner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chank/listeners/MenuLisner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +52,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.chank.listeners" />
@@ -113,7 +115,7 @@
       <updated>1699020135236</updated>
       <workItem from="1715435818463" duration="9136000" />
       <workItem from="1715445208330" duration="679000" />
-      <workItem from="1715481115631" duration="10762000" />
+      <workItem from="1715481115631" duration="19477000" />
     </task>
     <task id="LOCAL-00001" summary="初始化提交...">
       <option name="closed" value="true" />
@@ -147,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715445493459</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="累昏了，学习去了。">
+      <option name="closed" value="true" />
+      <created>1715492164730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715492164731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +190,7 @@
     <MESSAGE value="初始化提交..." />
     <MESSAGE value="钟表右键菜单初步构建..." />
     <MESSAGE value="readme..." />
-    <option name="LAST_COMMIT_MESSAGE" value="readme..." />
+    <MESSAGE value="累昏了，学习去了。" />
+    <option name="LAST_COMMIT_MESSAGE" value="累昏了，学习去了。" />
   </component>
 </project>
