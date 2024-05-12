@@ -1,10 +1,13 @@
 name: ncwu_plugin
 version: '${project.version}'
-main: com.chank.Ncwu_plugin
+main: com.chank.NcwuPlugin
 api-version: '1.20'
 
 commands:
+  menu:
+    description: "菜单相关"
+    aliases: mu
   myplugin:
     description: "华水测试插件"
-#    permission: MyPlugin.Main
+    #    permission: MyPlugin.Main
     aliases: mp
