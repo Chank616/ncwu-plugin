@@ -11,3 +11,7 @@ commands:
     description: "华水测试插件"
     #    permission: MyPlugin.Main
     aliases: mp
+  tpa:
+    description: "发送传送请求到其他玩家"
+  tpaccept:
+    description: "接受传送请求"
